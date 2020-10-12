@@ -16,9 +16,7 @@ items.forEach((item) => {
           // console.log(this.responseText);
           document.querySelector("#respuesta").innerHTML = this.responseText;
           const tbody = document.querySelector("#tbody-huespedes");
-          console.log(tbody);
           const fila = document.querySelector('#fila-' + habitacion);
-          console.log(fila);
           tbody.removeChild(fila);
         }
       );

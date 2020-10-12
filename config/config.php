@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'https://hotel-app-sql.herokuapp.com');
+define('URL', 'https://hotel-app-sql.herokuapp.com/');
 
 define('HOST', 'db4free.net');
 define('DB', 'cristiansivakdb');

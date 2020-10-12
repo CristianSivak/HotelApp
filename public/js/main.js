@@ -10,7 +10,7 @@ items.forEach((item) => {
 
     if (confirm) {
       httpRequest(
-        "http://localhost/curso/HotelApp/consulta/eliminarHuesped/" +
+        "http://https://hotel-app-sql.herokuapp.com/consulta/eliminarHuesped/" +
           habitacion,
         function () {
           // console.log(this.responseText);
